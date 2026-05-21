@@ -1,0 +1,6 @@
+{
+  "name": "CreatorFlow",
+  "description": "Platform SaaS modern untuk mengelola ide konten, jadwal posting, analisis performa, dan kolaborasi tim bagi konten kreator dalam satu platform berbasis cloud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
