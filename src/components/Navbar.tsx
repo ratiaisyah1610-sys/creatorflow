@@ -27,8 +27,6 @@ export default function Navbar({ onScrollToSection, activeSection }: NavbarProps
     { label: 'Tentang', id: 'about' },
     { label: 'Galeri', id: 'gallery' },
     { label: 'Fitur', id: 'features' },
-    { label: 'Analisis Pasar', id: 'market' },
-    { label: 'Kompetitor', id: 'competitors' },
     { label: 'Harga', id: 'pricing' },
     { label: 'Kontak', id: 'contact' },
   ];

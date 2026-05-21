@@ -52,14 +52,8 @@ export default function Footer({ onScrollToSection }: FooterProps) {
 
           {/* Core Analytics & Pricing Column */}
           <div className="md:col-span-3 space-y-3">
-            <h5 className="text-stone-100 text-xs font-bold uppercase tracking-wider">Analitis & Lisensi</h5>
+            <h5 className="text-stone-100 text-xs font-bold uppercase tracking-wider">Penawaran & Bantuan</h5>
             <ul className="space-y-2 text-xs">
-              <li>
-                <button onClick={() => onScrollToSection('market')} className="hover:text-natural-brand block cursor-pointer transition-colors text-stone-400">Analisis Target Pasar</button>
-              </li>
-              <li>
-                <button onClick={() => onScrollToSection('competitors')} className="hover:text-natural-brand block cursor-pointer transition-colors text-stone-400">Matriks Kompetitor</button>
-              </li>
               <li>
                 <button onClick={() => onScrollToSection('pricing')} className="hover:text-natural-brand block cursor-pointer transition-colors text-stone-400">Daftar Paket Harga</button>
               </li>

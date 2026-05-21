@@ -4,8 +4,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import Features from './components/Features';
-import MarketAnalysis from './components/MarketAnalysis';
-import Competitors from './components/Competitors';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -30,7 +28,7 @@ export default function App() {
   // Scroll spy effect to highlight navigation tabs dynamically
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'gallery', 'features', 'market', 'competitors', 'pricing', 'contact'];
+      const sections = ['home', 'about', 'gallery', 'features', 'pricing', 'contact'];
       const scrollPosition = window.scrollY + 220; // safe threshold trigger
 
       for (const section of sections) {
@@ -67,12 +65,6 @@ export default function App() {
 
         {/* Fitur Utama */}
         <Features />
-
-        {/* Analisis Pasar & TAM SAM SOM */}
-        <MarketAnalysis />
-
-        {/* Matriks Kompetitor */}
-        <Competitors />
 
         {/* Pricing List Packages */}
         <Pricing onScrollToSection={handleScrollToSection} />
